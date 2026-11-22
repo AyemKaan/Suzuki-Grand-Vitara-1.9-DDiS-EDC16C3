@@ -1,6 +1,14 @@
-# Suzuki Grand Vitara 1.9 DDiS (F9Q / Bosch EDC16C3-10.25) — ECU Tuning Package
+# Suzuki Grand Vitara 1.9 DDiS (F9Q / Bosch EDC16C3-10.25) — ECU Tuning Package & Map Pack
 
-Calibrated and byte-verified ECU software package for the **Suzuki Grand Vitara 1.9 DDiS** (`F9Q` engine, 5-speed manual, factory 129 HP / 300 Nm).
+[![ECU](https://img.shields.io/badge/ECU-Bosch_EDC16C3--10.25-0ea5e9?style=for-the-badge)](https://github.com/AyemKaan/Suzuki-Grand-Vitara-1.9-DDiS-EDC16C3)
+[![SW](https://img.shields.io/badge/SW-1037382039P500__V50-38bdf8?style=for-the-badge)](https://github.com/AyemKaan/Suzuki-Grand-Vitara-1.9-DDiS-EDC16C3)
+[![HW](https://img.shields.io/badge/HW-8200638060-6366f1?style=for-the-badge)](https://github.com/AyemKaan/Suzuki-Grand-Vitara-1.9-DDiS-EDC16C3)
+[![Stage 1+](https://img.shields.io/badge/Stage_1+-168_HP_%2F_375_Nm-22c55e?style=for-the-badge)](https://github.com/AyemKaan/Suzuki-Grand-Vitara-1.9-DDiS-EDC16C3/releases)
+[![Checksum](https://img.shields.io/badge/Checksum-0xD01FE500_Verified-10b981?style=for-the-badge)](./TECHNICAL_REPORT.md)
+
+Calibrated, road-tested, and byte-verified **Stage 1 / Stage 1+ / 4300 RPM Popcorn Hardcut / A/C 950 RPM Idle / EGR & TVA OFF / N75 Fix** ECU software package and hex map address reference for the **Suzuki Grand Vitara 1.9 DDiS** (`F9Q-B264` 1.9 dCi engine, 5-speed manual, factory 129 HP / 300 Nm).
+
+> **Quick Download:** You can download individual `.bin` files and the Dyno PDF directly from the **[Releases (v1.0.0)](https://github.com/AyemKaan/Suzuki-Grand-Vitara-1.9-DDiS-EDC16C3/releases)** page.
 
 ## Vehicle & ECU Specifications
 
@@ -72,8 +80,20 @@ Calibrated and byte-verified ECU software package for the **Suzuki Grand Vitara 
 
 ## Documentation & Dyno Report
 
-- **[TECHNICAL_REPORT.md](./TECHNICAL_REPORT.md)** — Full technical documentation, hex map addresses, torque/power table, and audit changelog.
+- **[TECHNICAL_REPORT.md](./TECHNICAL_REPORT.md)** — Full technical documentation, WinOLS hex map addresses, torque/power table, and byte-level audit changelog.
 - **[Suzuki_Grand_Vitara_1.9_DDiS_Dyno_Curve_and_Report.pdf](./Suzuki_Grand_Vitara_1.9_DDiS_Dyno_Curve_and_Report.pdf)** — 2-page Dyno HP/Nm curves & calibration summary PDF report.
+
+---
+
+## Compatible Hardware, Software, Tools & Solved DTC Reference
+
+- **Vehicle & Engine Codes:** Suzuki Grand Vitara JT 1.9 DDiS (2005–2015), Renault `F9Q`, `F9Q-B264`, `F9Q 264`, `1.9 dCi`, Garrett `GT1749V` VNT Turbo, Bosch `CP3` High-Pressure Fuel Pump.
+- **Bosch & OEM ECU Numbers:** Bosch `EDC16C3`, `EDC16C3-10.25`, `EDC16C39`, SW `1037382039`, `382039`, `1037382039P500_V50`, `V30_W84`, HW `8200638060`.
+- **Solved DTC / Fault Codes:**
+  - **Turbo / N75 / Boost Control (`PCR` & `BPACD`):** `P0243` (Turbocharger Wastegate/VNT Solenoid A / Boost Pressure Control Deviation), `P0033` (Turbo Charger Bypass Valve Control Circuit), `P0034` (Turbo Charger Bypass Valve Control Circuit Low).
+  - **EGR System (`EGRCD`):** `P0400`, `P0401`, `P0402`, `P0403`, `P0409`, `P0486`, `P0487`, `P0489`, `P0490`, `P2141`, `P2142`, `P2413`.
+  - **Throttle Valve Actuator (`TVA`):** `P0638` (Throttle Actuator Control Range/Performance Bank 1).
+- **Compatible Flash Tools (1.00 MB / 1,048,576 Bytes Read/Write):** Alientech `Kess V2` (OBD), `K-TAG` (BDM), `MPPS`, `Galletto FGTech`, `PCMflash`, `WinOLS` map pack / Damos reference.
 
 ---
 
