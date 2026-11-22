@@ -70,11 +70,10 @@ Calibrated and byte-verified ECU software package for the **Suzuki Grand Vitara 
 
 ---
 
-## Documentation & Dyno Reports
+## Documentation & Dyno Report
 
-- **[TECHNICAL_REPORT.md](./TECHNICAL_REPORT.md)** — Full English technical documentation, hex map addresses, torque/power table, and audit changelog.
-- **[Suzuki_Grand_Vitara_1.9_DDiS_Dyno_Curve_and_Report_EN.pdf](./Suzuki_Grand_Vitara_1.9_DDiS_Dyno_Curve_and_Report_EN.pdf)** — English dyno HP/Nm curves & calibration summary report.
-- **[YAPILAN_ISLEMLER.md](./YAPILAN_ISLEMLER.md)** & **[Suzuki_Grand_Vitara_1.9_DDiS_Dyno_Guc_Egrisi_ve_Raporu.pdf](./Suzuki_Grand_Vitara_1.9_DDiS_Dyno_Guc_Egrisi_ve_Raporu.pdf)** — Turkish technical documentation and dyno report.
+- **[TECHNICAL_REPORT.md](./TECHNICAL_REPORT.md)** — Full technical documentation, hex map addresses, torque/power table, and audit changelog.
+- **[Suzuki_Grand_Vitara_1.9_DDiS_Dyno_Curve_and_Report.pdf](./Suzuki_Grand_Vitara_1.9_DDiS_Dyno_Curve_and_Report.pdf)** — 2-page Dyno HP/Nm curves & calibration summary PDF report.
 
 ---
 

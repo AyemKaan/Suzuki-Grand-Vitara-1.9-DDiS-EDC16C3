@@ -1,9 +1,11 @@
-# Exclude unrelated SX4 reference files & temporary files
+# Exclude unrelated SX4 reference files, local Turkish backups & temporary files
 *.a2l
 *.HEX
 *.ORI
 *.ori
 *.kp
+YAPILAN_ISLEMLER.md
+Suzuki_Grand_Vitara_1.9_DDiS_Dyno_Guc_Egrisi_ve_Raporu.pdf
 *.tmp
 *.bak
 .DS_Store
