@@ -1,0 +1,10 @@
+# Exclude unrelated SX4 reference files & temporary files
+*.a2l
+*.HEX
+*.ORI
+*.ori
+*.kp
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
