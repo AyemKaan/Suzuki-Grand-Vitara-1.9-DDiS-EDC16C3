@@ -15,6 +15,26 @@ Calibrated and byte-verified ECU software package for the **Suzuki Grand Vitara 
 
 ---
 
+## Dyno Power & Torque Curves
+
+![Suzuki Grand Vitara 1.9 DDiS Dyno Power & Torque Curves](./docs/dyno_curves.png)
+
+| Engine RPM | Stock OEM (Nm / HP) | Stage 1 Popcorn (Nm / HP) | **Stage 1+ Plain (Nm / HP)** | **Stage 1+ Popcorn (Nm / HP)** |
+| :---: | :---: | :---: | :---: | :---: |
+| **1000** | 132 Nm / 18.8 HP | 132 Nm / 18.8 HP | **133 Nm / 18.9 HP** | **133 Nm / 18.9 HP** |
+| **1500** | 222 Nm / 47.4 HP | 245 Nm / 52.3 HP | **250 Nm / 53.4 HP** | **250 Nm / 53.4 HP** |
+| **1750** | 275 Nm / 68.5 HP | 315 Nm / 78.5 HP | **325 Nm / 81.0 HP** | **325 Nm / 81.0 HP** |
+| **2000** | **300 Nm** / 85.4 HP | **355 Nm** / 101.1 HP | **375 Nm / 106.8 HP** | **375 Nm / 106.8 HP** |
+| **2500** | 297 Nm / 105.7 HP | 352 Nm / 125.3 HP | **372 Nm / 132.4 HP** | **372 Nm / 132.4 HP** |
+| **3000** | 283 Nm / 120.9 HP | 336 Nm / 143.5 HP | **355 Nm / 151.6 HP** | **355 Nm / 151.6 HP** |
+| **3500** | 255 Nm / 127.1 HP | 308 Nm / 153.5 HP | **326 Nm / 162.5 HP** | **326 Nm / 162.5 HP** |
+| **3750** | 242 Nm / **129.2 HP** | 292 Nm / 155.9 HP | **308 Nm / 164.4 HP** | **308 Nm / 164.4 HP** |
+| **4000** | 220 Nm / 125.3 HP | 268 Nm / 152.6 HP | **285 Nm / 162.3 HP** | **285 Nm / 162.3 HP** |
+| **4300** | 196 Nm / 120.0 HP | 268 Nm / **164.1 HP** | **244 Nm / 149.4 HP** | **285 Nm / 174.5 HP** |
+| **4305** | 196 Nm / 119.9 HP | **0 Nm (Hardcut)** | **243 Nm / 149.1 HP** | **0 Nm (Hardcut)** |
+
+---
+
 ## Included Binaries (All Checksum-Verified)
 
 | File | Output (Est.) | Idle / A/C Idle | Rev Limiter | Checksum (`0x0FDF7C`) | Notes |
