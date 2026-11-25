@@ -70,8 +70,9 @@ Calibrated, road-tested, and byte-verified **Stage 1 / Stage 1+ / 4300 RPM Popco
   - EGR and TVA (`P0638`) DTC classes and `DSM_InhDfp` inhibitions zeroed (`P0651` 5V Sensor Reference B kept active for diagnostic safety).
 - **Engine-Safe Stage 1+ Calibration (~168 HP / 375 Nm):**
   - Soft low-RPM ramp (`1000–1500 RPM`) to protect `F9Q` conrod bearings and dual-mass flywheel; `375 Nm` peak from `2000–2250 RPM`.
+  - Inner engine torque limiter (`EngPrt_trqNLim_CUR` at `0x0D40F0`) raised from `400 Nm` to `440 Nm` (`415 Nm` on Stage 1), overheat quantity caps (`0x0D4158`, `0x0D42A0`) raised to `75.0 mm³/str`, and `NM2IQ` (`FMTC_trq2qBas_MAP` at `0x0D628A`) inner-torque axis extended up to `410 Nm` (`395 Nm` on Stage 1) for linear, unclipped fuel delivery.
   - Gearbox master input torque limit (`Gearbx_trqInMax_C` at `0x0D7820`) raised from stock `335 Nm` to `385 Nm` (`360 Nm` on Stage 1), with 1st/Reverse capped at `315 Nm` and gears 2–5 at `385 Nm`.
-  - Peak boost raised conservatively from `1.51 bar` to `1.55 bar` (`2550 mbar`) mid-range, tapering to `1.38 bar` at `4000+ RPM` to protect the Garrett `GT1749V` shaft (`SVBL = 2700 mbar`).
+  - Peak boost raised conservatively from `1.51 bar` to `1.55 bar` (`2550 mbar`) mid-range, tapering to `1.38 bar` at `4000+ RPM` to protect the Garrett `GT1749V` shaft, with unclipped low-RPM spool limiters (`0x0ED2AA`, `0x0EC326..0x0EC522`, `SVBL = 2700 mbar`).
   - Factory `1600 bar` peak rail pressure ceiling is **never exceeded**; clean smoke-free `1.10 Lambda` (`15.95:1 AFR`) and `+1.0°..+1.4°` full-load SOI advance.
 - **4300 RPM Popcorn Hardcut (`Popcorn` variants):**
   - Synchronized `4300 -> 4305 RPM` (`5 RPM` step) zero-torque fuel cut across Torque Limiters `0x0D3358`, `0x0D403C`, and Driver Wish `0x0C11F8`.
