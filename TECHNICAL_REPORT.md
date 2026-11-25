@@ -25,10 +25,12 @@ This document provides the complete technical analysis, hex map addresses, N75/V
 | **`original_suzuki_fabrika.bin`** | 129 HP / 300 Nm | Stock (4800 RPM) | `0xA6A826E2` | `0xD01FE500` | Untouched factory reference binary (factory DPF-off calibration). |
 | **`org.bin`** | 129 HP / 300 Nm | Stock (4800 RPM) | `0xB32F5EFA` | `0xD01FE500` | Earlier stock OBD read. |
 | **`Suzuki_Grand_Vitara_Stage1_Popcorn_EGR_N75_OK.bin`** | ~158 HP / 355 Nm | **4300 RPM Popcorn** | `0x1CF9D723` | `0xD01FE500` | Mild **Stage 1 + 4300 RPM Hardcut Popcorn** + Full EGR & TVA OFF + N75 Active & Protected. |
-| **`Suzuki_Grand_Vitara_Stage1_PLUS_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | Stock (4800 RPM) | `0xC8F8793B` | `0xD01FE500` | **Stage 1+ (Recommended Daily Limit)** + Full EGR & TVA OFF + N75 Active & Protected. |
-| **`Suzuki_Grand_Vitara_Stage1_PLUS_Klima950_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | Stock (4800 RPM) | `0xC7CC780F` | `0xD01FE500` | **Stage 1+ + A/C-ON 950 RPM Idle (`0x0C1828`, A/C OFF stays 800 RPM)** + EGR/TVA OFF + N75 Protected. |
-| **`Suzuki_Grand_Vitara_Stage1_PLUS_Popcorn_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **4300 RPM Popcorn** | `0xE45C90CC` | `0xD01FE500` | **Stage 1+ + 4300 RPM Hardcut Popcorn** + Full EGR & TVA OFF + N75 Protected. |
-| **`Suzuki_Grand_Vitara_Stage1_PLUS_Popcorn_Klima950_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **4300 RPM Popcorn** | `0xE3308FA0` | `0xD01FE500` | **Stage 1+ + 4300 RPM Popcorn + A/C-ON 950 RPM Idle (`0x0C1828`, A/C OFF 800 RPM)** + EGR/TVA OFF + N75 Protected. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | Stock (4800 RPM) | `0x7EC03EA3` | `0xD01FE500` | **Stage 1+ (Recommended Daily Limit)** + Full EGR & TVA OFF + N75 Active & Protected. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_Klima950_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | Stock (4800 RPM) | `0x7D943D77` | `0xD01FE500` | **Stage 1+ + A/C-ON 950 RPM Idle (`0x0C1828`, A/C OFF stays 800 RPM)** + EGR/TVA OFF + N75 Protected. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_Popcorn_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **4300 RPM Popcorn** | `0x9A245634` | `0xD01FE500` | **Stage 1+ + 4300 RPM Hardcut Popcorn** + Full EGR & TVA OFF + N75 Protected. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_Popcorn_Klima950_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **4300 RPM Popcorn** | `0x98F85508` | `0xD01FE500` | **Stage 1+ + 4300 RPM Popcorn + A/C-ON 950 RPM Idle (`0x0C1828`, A/C OFF 800 RPM)** + EGR/TVA OFF + N75 Protected. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_LaunchControl_Popcorn_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **2750 Launch (`0–5 km/h`) + 4300 Popcorn** | `0xF6B8DAAE` | `0xD01FE500` | **Stage 1+ + Speed-Based 2750 RPM Launch Control + 4300 RPM Popcorn** *(requires working VSS speed input to ECU)*. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_LaunchControl_Popcorn_Klima950_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **2750 Launch (`0–5 km/h`) + 4300 Popcorn** | `0xF58CD982` | `0xD01FE500` | **Stage 1+ + Speed-Based 2750 RPM Launch + 4300 RPM Popcorn + A/C 950 RPM** *(requires working VSS speed input to ECU)*. |
 
 ---
 
