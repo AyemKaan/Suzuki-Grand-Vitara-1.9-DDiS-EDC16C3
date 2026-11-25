@@ -24,13 +24,13 @@ This document provides the complete technical analysis, hex map addresses, N75/V
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **`original_suzuki_fabrika.bin`** | 129 HP / 300 Nm | Stock (4800 RPM) | `0xA6A826E2` | `0xD01FE500` | Untouched factory reference binary (factory DPF-off calibration). |
 | **`org.bin`** | 129 HP / 300 Nm | Stock (4800 RPM) | `0xB32F5EFA` | `0xD01FE500` | Earlier stock OBD read. |
-| **`Suzuki_Grand_Vitara_Stage1_Popcorn_EGR_N75_OK.bin`** | ~158 HP / 355 Nm | **4300 RPM Popcorn** | `0x1CF9D723` | `0xD01FE500` | Mild **Stage 1 + 4300 RPM Hardcut Popcorn** + Full EGR & TVA OFF + N75 Active & Protected. |
-| **`Suzuki_Grand_Vitara_Stage1_PLUS_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | Stock (4800 RPM) | `0x7EC03EA3` | `0xD01FE500` | **Stage 1+ (Recommended Daily Limit)** + Full EGR & TVA OFF + N75 Active & Protected. |
-| **`Suzuki_Grand_Vitara_Stage1_PLUS_Klima950_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | Stock (4800 RPM) | `0x7D943D77` | `0xD01FE500` | **Stage 1+ + A/C-ON 950 RPM Idle (`0x0C1828`, A/C OFF stays 800 RPM)** + EGR/TVA OFF + N75 Protected. |
-| **`Suzuki_Grand_Vitara_Stage1_PLUS_Popcorn_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **4300 RPM Popcorn** | `0x9A245634` | `0xD01FE500` | **Stage 1+ + 4300 RPM Hardcut Popcorn** + Full EGR & TVA OFF + N75 Protected. |
-| **`Suzuki_Grand_Vitara_Stage1_PLUS_Popcorn_Klima950_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **4300 RPM Popcorn** | `0x98F85508` | `0xD01FE500` | **Stage 1+ + 4300 RPM Popcorn + A/C-ON 950 RPM Idle (`0x0C1828`, A/C OFF 800 RPM)** + EGR/TVA OFF + N75 Protected. |
-| **`Suzuki_Grand_Vitara_Stage1_PLUS_LaunchControl_Popcorn_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **2750 Launch (`0–5 km/h`) + 4300 Popcorn** | `0xF6B8DAAE` | `0xD01FE500` | **Stage 1+ + Speed-Based 2750 RPM Launch Control + 4300 RPM Popcorn** *(requires working VSS speed input to ECU)*. |
-| **`Suzuki_Grand_Vitara_Stage1_PLUS_LaunchControl_Popcorn_Klima950_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **2750 Launch (`0–5 km/h`) + 4300 Popcorn** | `0xF58CD982` | `0xD01FE500` | **Stage 1+ + Speed-Based 2750 RPM Launch + 4300 RPM Popcorn + A/C 950 RPM** *(requires working VSS speed input to ECU)*. |
+| **`Suzuki_Grand_Vitara_Stage1_Popcorn_EGR_N75_OK.bin`** | ~158 HP / 355 Nm | **4300 RPM Popcorn** | `0x4E1E00B0` | `0xD01FE500` | Mild **Stage 1 + 4300 RPM Hardcut Popcorn** + Full EGR & TVA OFF + N75 Active & Protected. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | Stock (4800 RPM) | `0x2523F208` | `0xD01FE500` | **Stage 1+ (Recommended Daily Limit)** + Full EGR & TVA OFF + N75 Active & Protected. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_Klima950_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | Stock (4800 RPM) | `0x23F7F0DC` | `0xD01FE500` | **Stage 1+ + A/C-ON 950 RPM Idle (`0x0C1828`, A/C OFF stays 800 RPM)** + EGR/TVA OFF + N75 Protected. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_Popcorn_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **4300 RPM Popcorn** | `0x40880999` | `0xD01FE500` | **Stage 1+ + 4300 RPM Hardcut Popcorn** + Full EGR & TVA OFF + N75 Protected. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_Popcorn_Klima950_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **4300 RPM Popcorn** | `0x3F5C086D` | `0xD01FE500` | **Stage 1+ + 4300 RPM Popcorn + A/C-ON 950 RPM Idle (`0x0C1828`, A/C OFF 800 RPM)** + EGR/TVA OFF + N75 Protected. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_LaunchControl_Popcorn_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **2750 Launch (`0–5 km/h`) + 4300 Popcorn** | `0x9D1C8E13` | `0xD01FE500` | **Stage 1+ + Speed-Based 2750 RPM Launch Control + 4300 RPM Popcorn** *(requires working VSS speed input to ECU)*. |
+| **`Suzuki_Grand_Vitara_Stage1_PLUS_LaunchControl_Popcorn_Klima950_EGR_N75_OK.bin`** | **~168 HP / 375 Nm** | **2750 Launch (`0–5 km/h`) + 4300 Popcorn** | `0x9BF08CE7` | `0xD01FE500` | **Stage 1+ + Speed-Based 2750 RPM Launch + 4300 RPM Popcorn + A/C 950 RPM** *(requires working VSS speed input to ECU)*. |
 
 ---
 
@@ -110,8 +110,10 @@ Calibrated with soft low-RPM delivery to protect `F9Q` conrod bearings and dual-
 - **Addresses:** `0x0D7820` (`Gearbx_trqInMax_C` master/default gearbox torque cap), `0x0D7822` (1st), `0x0D7860` (2nd), `0x0D789E` (3rd), `0x0D78DC` (4th), `0x0D791A` (5th), `0x0D7958` (unused 6th slot), `0x0D7996` (Reverse).
 - **Calibration (Stage 1+):** Raised `0x0D7820` (`Gearbx_trqInMax_C`) from stock `335 Nm` (`3350`) to **`385 Nm` (`3850`)** (`360 Nm` on Stage 1) so full torque is available even if vehicle speed / `v/n` gear detection defaults to `0`. 1st & Reverse set to **`315 Nm`**, gears 2–5 set to **`385 Nm`**.
 
-### 5.4. Torque-to-IQ Conversion (`NM2IQ`) — `0x0D628A` (`16x16`)
-- Recalibrated `320–380 Nm` columns to deliver **`70.0 – 71.5 mg/str`** at `375 Nm`.
+### 5.4. Inner Torque Limiter (`0x0D40F0`) & Torque-to-IQ Conversion (`NM2IQ` — `0x0D628A`, `16x16`)
+- **Inner Engine Torque Limiter (`EngPrt_trqNLim_CUR`, `0x0D40F0`, `25x1`):** Raised from stock `400.0 Nm` (`4000`) to **`440.0 Nm` (`4400`)** on Stage 1+ (`415.0 Nm` on Stage 1) across `40–4500 RPM` so `375 Nm` outer torque + `26–50 Nm` friction torque (`EngM_trqFrc_MAP` at `0x0D3710`) is never clipped.
+- **`FMTC_trq2qBas_MAP` (`0x0D628A`, `16x16`):** Extended top inner-torque Y-axis breakpoints from `(..., 3000, 3200, 3400, 3600, 3800)` to **`(..., 3000, 3250, 3500, 3800, 4100)`** (`3950` on Stage 1) and linearized IQ columns to deliver **`70.0 – 71.5 mm³/str`** smoothly without clamping above `380 Nm` inner torque.
+- **Overheat Quantity Protection (`EngPrt_qOvhtPrvNRng_MAP` `0x0D4158`, `EngPrt_qOvhtPrvVRng_MAP` `0x0D42A0`):** Normal-temperature ceiling raised from `70.0` to **`75.0 mm³/str`** (`72.0 mm³/str` on Stage 1) while preserving factory `+80°C` fuel and `+119..130°C` coolant overheat derating.
 
 ### 5.5. Smoke Limiters (5x Lambda Maps) — `0x0D5688`, `0x0D58CC`, `0x0D5B10`, `0x0D5D54`, `0x0D5F98`
 - Low-airflow pre-boost cells (`250–500 mg/str`) kept factory stock (`1.22–1.45 Lambda`) for zero low-RPM smoke.
@@ -153,3 +155,6 @@ All tuned binaries were audited byte-for-byte against `original_suzuki_fabrika.b
 5. **Stage 1 Boost Limiters Fixed:** Raised `0x0EC6E0` and `0x0EC7A8` from `2500` to `2600 mbar` in `Stage1_Popcorn`.
 6. **Master Gearbox Cap (`0x0D7820`) Fixed & Speed-Based Launch Control Removed:** Road testing confirmed that when the ECU receives `0 km/h` (`VSSCD_vDfl_C = 0` at `0x0F6194`, e.g., when vehicle speed / Cruise Control signal is absent), speed-based `0–5 km/h` Launch Control maps (`0x0D3D32`, `0x0D3E1E`, `0x0D3F1E`) stay active while driving and `Gearbx` falls back to `0x0D7820` (`Gearbx_trqInMax_C`). Launch Control files were removed and `0x0D7820` was raised from `335 Nm` to `385 Nm` (`360 Nm` on Stage 1).
 7. **Cranking, Start Fuel & Glow Plug Regions Verified 100% Stock:** `StSys` (`0x0F5A00..0x0F6100`), Rail start (`0x0F3800..0x0F4127`), and `GlwCD`/`GlwCtl` (`0x0D7A00..0x0D8200`) have **0 bytes modified** vs. `original_suzuki_fabrika.bin`.
+8. **Inner Torque Limiter (`0x0D40F0`) & `NM2IQ` (`0x0D628A`) Y-Axis Unclamped:** Raised `EngPrt_trqNLim_CUR` (`0x0D40F0`) from `400 Nm` to `440 Nm` (`415 Nm` on Stage 1) and rescaled `FMTC_trq2qBas_MAP` (`0x0D628A`) Y-axis up to `410 Nm` inner torque (`395 Nm` on Stage 1) so `375 Nm` outer torque + friction is completely linear and unclipped.
+9. **Low-RPM Spool Boost Limiters (`0x0ED2AA` & `0x0EC326..0x0EC522`) Unclipped:** Raised `1250–1750 RPM` and part-load cells of `0x0ED2AA` (`16x16`) and `>= 900 hPa` cells of `0x0EC326, 0x0EC41A, 0x0EC522` (`10x10`) so spool-up boost targets (`1540 / 1870 / 2160 mbar`) are never clipped (preserving `<= 850 hPa` high-altitude turbo protection).
+10. **Stage 1 Driver Wish (`0x0C11F8`) Diagonal Zero Glitch Fixed & Boost Synchronized:** Repaired 10 diagonal zeroed pedal cells in `Stage1_Popcorn` Driver Wish, synchronized all 6 boost target maps, and set `SVBL` (`0x0EC938`) to `2650 mbar`.
